@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pro Golfer — Premium golf clubs engineered for professional golfers. Discover our full range of drivers, fairway woods, irons, wedges, putters, and hybrids.">
+  <meta name="keywords" content="Pro Golfer, golf clubs, professional golf, drivers, irons, wedges, putters, fairway woods, hybrids, premium golf equipment">
+  <meta name="author" content="Pro Golfer">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pro Golfer — Engineered for Champions">
+  <meta property="og:description" content="Premium golf clubs designed and engineered for professional golfers. Explore our complete product lineup.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.progolfer.com">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+
+  <title>Pro Golfer — Engineered for Champions</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="navbar__inner">
+      <a href="#hero" class="navbar__logo" aria-label="Pro Golfer Home">
+        <span class="navbar__logo-icon">⛳</span>
+        Pro Golfer
+      </a>
+
+      <div class="navbar__links">
+        <a href="#products" class="navbar__link">Products</a>
+        <a href="#about" class="navbar__link">About</a>
+        <a href="#technology" class="navbar__link">Technology</a>
+        <a href="#testimonials" class="navbar__link">Pros</a>
+        <a href="#contact" class="navbar__cta">Contact Us</a>
+      </div>
+
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="navbar__mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+      <a href="#products" class="navbar__mobile-link">Products</a>
+      <a href="#about" class="navbar__mobile-link">About</a>
+      <a href="#technology" class="navbar__mobile-link">Technology</a>
+      <a href="#testimonials" class="navbar__mobile-link">Pros</a>
+      <a href="#contact" class="navbar__mobile-link">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-pattern"></div>
+    <div class="hero__glow hero__glow--1"></div>
+    <div class="hero__glow hero__glow--2"></div>
+
+    <div class="hero__content">
+      <span class="hero__badge">Premium Golf Equipment</span>
+      <h1 class="hero__title">
+        Engineered for<br><span>Champions</span>
+      </h1>
+      <p class="hero__subtitle">
+        Pro Golfer designs and manufactures high-performance golf clubs for professional and competitive golfers. Precision engineering meets cutting-edge technology.
+      </p>
+      <div class="hero__actions">
+        <a href="#products" class="btn btn--primary">Explore Products</a>
+        <a href="#technology" class="btn btn--secondary">Our Technology</a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-number">6</span>
+          <span class="hero__stat-label">Product Lines</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number">Tour</span>
+          <span class="hero__stat-label">Proven Performance</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number">0–15</span>
+          <span class="hero__stat-label">Handicap Range</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PRODUCTS SECTION
+       ============================================ -->
+  <section class="products" id="products">
+    <div class="container">
+      <span class="section-label animate-on-scroll">Our Collection</span>
+      <h2 class="section-title animate-on-scroll">Complete Product Lineup</h2>
+      <p class="section-subtitle animate-on-scroll">
+        Six categories of meticulously crafted golf clubs, each designed to elevate your game from tee to green.
+      </p>
+
+      <div class="products__grid">
+
+        <!-- Product 1: ProFlight X1 Driver -->
+        <article class="product-card animate-on-scroll delay-1" role="article" tabindex="0"
+                 data-product="driver" aria-label="ProFlight X1 Driver">
+          <div class="product-card__image product-card__image--driver">
+            <span class="product-card__image-icon">🏌️</span>
+            <span class="product-card__badge">Flagship</span>
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__category">Driver</span>
+            <h3 class="product-card__name">ProFlight X1</h3>
+            <p class="product-card__tagline">"Engineered for Maximum Distance, Zero Compromise"</p>
+            <span class="product-card__price">$549 – $699</span>
+          </div>
+          <span class="product-card__arrow" aria-hidden="true">→</span>
+        </article>
+
+        <!-- Product 2: AeroStrike Fairway Wood -->
+        <article class="product-card animate-on-scroll delay-2" role="article" tabindex="0"
+                 data-product="fairway" aria-label="AeroStrike Fairway Wood">
+          <div class="product-card__image product-card__image--fairway">
+            <span class="product-card__image-icon">🌲</span>
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__category">Fairway Wood</span>
+            <h3 class="product-card__name">AeroStrike</h3>
+            <p class="product-card__tagline">"Pure Contact from Any Lie"</p>
+            <span class="product-card__price">$349 – $449</span>
+          </div>
+          <span class="product-card__arrow" aria-hidden="true">→</span>
+        </article>
+
+        <!-- Product 3: Precision Blade Iron Set -->
+        <article class="product-card animate-on-scroll delay-3" role="article" tabindex="0"
+                 data-product="irons" aria-label="Precision Blade Iron Set">
+          <div class="product-card__image product-card__image--irons">
+            <span class="product-card__image-icon">⚙️</span>
+            <span class="product-card__badge">Tour Choice</span>
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__category">Irons</span>
+            <h3 class="product-card__name">Precision Blade</h3>
+            <p class="product-card__tagline">"Feel Every Shot, Control Every Yard"</p>
+            <span class="product-card__price">$1,199 – $1,599</span>
+          </div>
+          <span class="product-card__arrow" aria-hidden="true">→</span>
+        </article>
+
+        <!-- Product 4: SpinMaster Wedge Series -->
+        <article class="product-card animate-on-scroll delay-4" role="article" tabindex="0"
+                 data-product="wedges" aria-label="SpinMaster Wedge Series">
+          <div class="product-card__image product-card__image--wedges">
+            <span class="product-card__image-icon">🎯</span>
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__category">Wedges</span>
+            <h3 class="product-card__name">SpinMaster Series</h3>
+            <p class="product-card__tagline">"Spin That Stops on a Dime"</p>
+            <span class="product-card__price">$179 – $229 each</span>
+          </div>
+          <span class="product-card__arrow" aria-hidden="true">→</span>
+        </article>
+
+        <!-- Product 5: TrueRoll Putter Collection -->
+        <article class="product-card animate-on-scroll delay-5" role="article" tabindex="0"
+                 data-product="putters" aria-label="TrueRoll Putter Collection">
+          <div class="product-card__image product-card__image--putters">
+            <span class="product-card__image-icon">🕳️</span>
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__category">Putters</span>
+            <h3 class="product-card__name">TrueRoll Collection</h3>
+            <p class="product-card__tagline">"True Roll. True Confidence."</p>
+            <span class="product-card__price">$299 – $449</span>
+          </div>
+          <span class="product-card__arrow" aria-hidden="true">→</span>
+        </article>
+
+        <!-- Product 6: VersaLaunch Hybrid -->
+        <article class="product-card animate-on-scroll delay-6" role="article" tabindex="0"
+                 data-product="hybrids" aria-label="VersaLaunch Hybrid">
+          <div class="product-card__image product-card__image--hybrids">
+            <span class="product-card__image-icon">🔀</span>
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__category">Hybrid</span>
+            <h3 class="product-card__name">VersaLaunch</h3>
+            <p class="product-card__tagline">"The Long Iron Replacement You Can Trust"</p>
+            <span class="product-card__price">$279 – $349</span>
+          </div>
+          <span class="product-card__arrow" aria-hidden="true">→</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PRODUCT DETAIL MODALS
+       ============================================ -->
+
+  <!-- Driver Detail -->
+  <div class="product-detail" id="detail-driver" role="dialog" aria-label="ProFlight X1 Driver Details" aria-modal="true">
+    <div class="product-detail__content">
+      <div class="product-detail__header product-card__image--driver">
+        <button class="product-detail__close" aria-label="Close product details">&times;</button>
+        <span class="product-detail__category">Driver</span>
+        <h3 class="product-detail__name">ProFlight X1 Driver</h3>
+        <p class="product-detail__tagline">"Engineered for Maximum Distance, Zero Compromise"</p>
+      </div>
+      <div class="product-detail__body">
+        <p class="product-detail__description">
+          The ProFlight X1 is Pro Golfer's flagship driver featuring a titanium composite head with AI-optimized face geometry for maximum ball speed and forgiveness. Adjustable loft (8°–12°) and a carbon fiber crown reduce weight for higher launch angles.
+        </p>
+        <h4 class="product-detail__specs-title">📋 Specifications</h4>
+        <table class="product-detail__specs-table">
+          <tbody>
+            <tr><th scope="row">Head Size</th><td>460cc</td></tr>
+            <tr><th scope="row">Material</th><td>Titanium body, Carbon fiber crown, Forged titanium face</td></tr>
+            <tr><th scope="row">Loft Options</th><td>8° / 9° / 10.5° / 12° (adjustable ±2°)</td></tr>
+            <tr><th scope="row">Shaft Options</th><td>Pro Tour 60X (X-Stiff), Pro Tour 60S (Stiff), Pro Tour 55R (Regular)</td></tr>
+            <tr><th scope="row">Weight</th><td>310g (head only)</td></tr>
+            <tr><th scope="row">Variants</th><td>Right-hand, Left-hand</td></tr>
+          </tbody>
+        </table>
+        <h4 class="product-detail__specs-title">🔬 Key Technologies</h4>
+        <div class="product-detail__tech">
+          <span class="product-detail__tech-tag">AI FlightPath Face</span>
+          <span class="product-detail__tech-tag">Adjustable Hosel System</span>
+          <span class="product-detail__tech-tag">Internal Tungsten Weighting</span>
+          <span class="product-detail__tech-tag">Carbon Fiber Crown</span>
+        </div>
+        <div class="product-detail__price-section">
+          <div>
+            <span class="product-detail__price-label">Starting From</span>
+            <span class="product-detail__price-value">$549</span>
+          </div>
+          <a href="#contact" class="btn btn--gold product-detail__inquiry">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fairway Wood Detail -->
+  <div class="product-detail" id="detail-fairway" role="dialog" aria-label="AeroStrike Fairway Wood Details" aria-modal="true">
+    <div class="product-detail__content">
+      <div class="product-detail__header product-card__image--fairway">
+        <button class="product-detail__close" aria-label="Close product details">&times;</button>
+        <span class="product-detail__category">Fairway Wood</span>
+        <h3 class="product-detail__name">AeroStrike Fairway Wood</h3>
+        <p class="product-detail__tagline">"Pure Contact from Any Lie"</p>
+      </div>
+      <div class="product-detail__body">
+        <p class="product-detail__description">
+          The AeroStrike fairway wood combines a low-profile stainless steel head with a maraging steel face insert for explosive distance off the deck or tee. Precision CG placement delivers a penetrating ball flight with exceptional workability.
+        </p>
+        <h4 class="product-detail__specs-title">📋 Specifications</h4>
+        <table class="product-detail__specs-table">
+          <tbody>
+            <tr><th scope="row">Head Size</th><td>175cc (3W), 155cc (5W), 140cc (7W)</td></tr>
+            <tr><th scope="row">Material</th><td>17-4 Stainless steel body, Maraging steel face</td></tr>
+            <tr><th scope="row">Loft Options</th><td>15° (3W) / 18° (5W) / 21° (7W)</td></tr>
+            <tr><th scope="row">Shaft Options</th><td>AeroLite 70X, AeroLite 70S, AeroLite 65R</td></tr>
+            <tr><th scope="row">Weight</th><td>215g – 230g (head only)</td></tr>
+            <tr><th scope="row">Variants</th><td>3W / 5W / 7W, Right-hand, Left-hand</td></tr>
+          </tbody>
+        </table>
+        <h4 class="product-detail__specs-title">🔬 Key Technologies</h4>
+        <div class="product-detail__tech">
+          <span class="product-detail__tech-tag">Low CG Rail System</span>
+          <span class="product-detail__tech-tag">Maraging Steel Face</span>
+          <span class="product-detail__tech-tag">Speed Channel</span>
+        </div>
+        <div class="product-detail__price-section">
+          <div>
+            <span class="product-detail__price-label">Starting From</span>
+            <span class="product-detail__price-value">$349</span>
+          </div>
+          <a href="#contact" class="btn btn--gold product-detail__inquiry">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Irons Detail -->
+  <div class="product-detail" id="detail-irons" role="dialog" aria-label="Precision Blade Iron Set Details" aria-modal="true">
+    <div class="product-detail__content">
+      <div class="product-detail__header product-card__image--irons">
+        <button class="product-detail__close" aria-label="Close product details">&times;</button>
+        <span class="product-detail__category">Irons</span>
+        <h3 class="product-detail__name">Precision Blade Iron Set</h3>
+        <p class="product-detail__tagline">"Feel Every Shot, Control Every Yard"</p>
+      </div>
+      <div class="product-detail__body">
+        <p class="product-detail__description">
+          The Precision Blade is a tour-caliber forged iron set designed for shot-shaping professionals. Crafted from S25C carbon steel with a compact blade profile, these irons deliver unmatched feel and workability. Progressive offset and sole width provide consistency from long irons through scoring clubs.
+        </p>
+        <h4 class="product-detail__specs-title">📋 Specifications</h4>
+        <table class="product-detail__specs-table">
+          <tbody>
+            <tr><th scope="row">Set Composition</th><td>3i – PW (8 clubs)</td></tr>
+            <tr><th scope="row">Material</th><td>Forged S25C Carbon Steel</td></tr>
+            <tr><th scope="row">Loft Range</th><td>21° (3i) – 46° (PW), 3° increments</td></tr>
+            <tr><th scope="row">Shaft Options</th><td>DG Tour Issue X100, DG Tour Issue S300, KBS Tour V 125S</td></tr>
+            <tr><th scope="row">Grip</th><td>Pro Golfer Tour Velvet (Standard / Midsize)</td></tr>
+            <tr><th scope="row">Variants</th><td>Right-hand, Left-hand</td></tr>
+          </tbody>
+        </table>
+        <h4 class="product-detail__specs-title">🔬 Key Technologies</h4>
+        <div class="product-detail__tech">
+          <span class="product-detail__tech-tag">Single-Piece Forging</span>
+          <span class="product-detail__tech-tag">Muscle-Back Design</span>
+          <span class="product-detail__tech-tag">Tungsten Toe Weighting (3i–5i)</span>
+        </div>
+        <div class="product-detail__price-section">
+          <div>
+            <span class="product-detail__price-label">Starting From</span>
+            <span class="product-detail__price-value">$1,199</span>
+          </div>
+          <a href="#contact" class="btn btn--gold product-detail__inquiry">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Wedges Detail -->
+  <div class="product-detail" id="detail-wedges" role="dialog" aria-label="SpinMaster Wedge Series Details" aria-modal="true">
+    <div class="product-detail__content">
+      <div class="product-detail__header product-card__image--wedges">
+        <button class="product-detail__close" aria-label="Close product details">&times;</button>
+        <span class="product-detail__category">Wedges</span>
+        <h3 class="product-detail__name">SpinMaster Wedge Series</h3>
+        <p class="product-detail__tagline">"Spin That Stops on a Dime"</p>
+      </div>
+      <div class="product-detail__body">
+        <p class="product-detail__description">
+          The SpinMaster wedge series features a raw carbon steel construction with laser-milled grooves for maximum spin control. Available in multiple sole grinds to suit any turf condition and swing type. Tour-proven around the world's toughest greens.
+        </p>
+        <h4 class="product-detail__specs-title">📋 Specifications</h4>
+        <table class="product-detail__specs-table">
+          <tbody>
+            <tr><th scope="row">Material</th><td>8620 Carbon Steel, Raw finish</td></tr>
+            <tr><th scope="row">Loft Options</th><td>46° / 50° / 52° / 54° / 56° / 58° / 60°</td></tr>
+            <tr><th scope="row">Bounce Options</th><td>Low (6°), Mid (10°), High (14°)</td></tr>
+            <tr><th scope="row">Sole Grinds</th><td>S-Grind (versatile), C-Grind (open face), W-Grind (wide sole)</td></tr>
+            <tr><th scope="row">Groove Type</th><td>Laser-milled micro-grooves, Tour-spec depth</td></tr>
+            <tr><th scope="row">Shaft</th><td>DG Spinner 115 (wedge-specific)</td></tr>
+            <tr><th scope="row">Variants</th><td>Right-hand, Left-hand</td></tr>
+          </tbody>
+        </table>
+        <h4 class="product-detail__specs-title">🔬 Key Technologies</h4>
+        <div class="product-detail__tech">
+          <span class="product-detail__tech-tag">Laser-Milled Micro-Grooves</span>
+          <span class="product-detail__tech-tag">Progressive CG</span>
+          <span class="product-detail__tech-tag">Co-Forged Tungsten Insert</span>
+          <span class="product-detail__tech-tag">Raw Finish</span>
+        </div>
+        <div class="product-detail__price-section">
+          <div>
+            <span class="product-detail__price-label">Per Wedge From</span>
+            <span class="product-detail__price-value">$179</span>
+          </div>
+          <a href="#contact" class="btn btn--gold product-detail__inquiry">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Putters Detail -->
+  <div class="product-detail" id="detail-putters" role="dialog" aria-label="TrueRoll Putter Collection Details" aria-modal="true">
+    <div class="product-detail__content">
+      <div class="product-detail__header product-card__image--putters">
+        <button class="product-detail__close" aria-label="Close product details">&times;</button>
+        <span class="product-detail__category">Putters</span>
+        <h3 class="product-detail__name">TrueRoll Putter Collection</h3>
+        <p class="product-detail__tagline">"True Roll. True Confidence."</p>
+      </div>
+      <div class="product-detail__body">
+        <p class="product-detail__description">
+          The TrueRoll putter collection offers three head shapes — Blade, Mid-Mallet, and Full Mallet — each precision-milled from 303 stainless steel. A proprietary grooved face insert promotes immediate forward roll and distance consistency. Fully customizable length, lie, and loft.
+        </p>
+        <h4 class="product-detail__specs-title">📋 Specifications</h4>
+        <table class="product-detail__specs-table">
+          <tbody>
+            <tr><th scope="row">Head Shapes</th><td>Blade (Anser-style), Mid-Mallet, Full Mallet (high MOI)</td></tr>
+            <tr><th scope="row">Material</th><td>303 Stainless Steel, milled from solid billet</td></tr>
+            <tr><th scope="row">Face Insert</th><td>Grooved aluminum insert (TrueRoll Face Technology)</td></tr>
+            <tr><th scope="row">Length Options</th><td>32" – 36" (0.5" increments)</td></tr>
+            <tr><th scope="row">Grip Options</th><td>SuperStroke S-Tech, Pro Golfer Pistol, Oversize Fatso</td></tr>
+            <tr><th scope="row">Weight System</th><td>Interchangeable sole weights (10g, 15g, 20g)</td></tr>
+            <tr><th scope="row">Variants</th><td>Right-hand, Left-hand</td></tr>
+          </tbody>
+        </table>
+        <h4 class="product-detail__specs-title">🔬 Key Technologies</h4>
+        <div class="product-detail__tech">
+          <span class="product-detail__tech-tag">TrueRoll Face Grooves</span>
+          <span class="product-detail__tech-tag">Deep CG Milling</span>
+          <span class="product-detail__tech-tag">Adjustable Sole Weights</span>
+        </div>
+        <div class="product-detail__price-section">
+          <div>
+            <span class="product-detail__price-label">Starting From</span>
+            <span class="product-detail__price-value">$299</span>
+          </div>
+          <a href="#contact" class="btn btn--gold product-detail__inquiry">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hybrids Detail -->
+  <div class="product-detail" id="detail-hybrids" role="dialog" aria-label="VersaLaunch Hybrid Details" aria-modal="true">
+    <div class="product-detail__content">
+      <div class="product-detail__header product-card__image--hybrids">
+        <button class="product-detail__close" aria-label="Close product details">&times;</button>
+        <span class="product-detail__category">Hybrid</span>
+        <h3 class="product-detail__name">VersaLaunch Hybrid</h3>
+        <p class="product-detail__tagline">"The Long Iron Replacement You Can Trust"</p>
+      </div>
+      <div class="product-detail__body">
+        <p class="product-detail__description">
+          The VersaLaunch hybrid bridges the gap between fairway woods and long irons with a compact, tour-shaped head. A high-strength steel face and low CG design produce easy launch with a controlled trajectory. Designed to replace 2i–5i for players seeking forgiveness without sacrificing workability.
+        </p>
+        <h4 class="product-detail__specs-title">📋 Specifications</h4>
+        <table class="product-detail__specs-table">
+          <tbody>
+            <tr><th scope="row">Head Size</th><td>105cc (2H) / 100cc (3H) / 95cc (4H) / 90cc (5H)</td></tr>
+            <tr><th scope="row">Material</th><td>17-4 Stainless Steel body, Carpenter 455 steel face</td></tr>
+            <tr><th scope="row">Loft Options</th><td>17° (2H) / 19° (3H) / 22° (4H) / 25° (5H)</td></tr>
+            <tr><th scope="row">Shaft Options</th><td>HybridPro 85X, HybridPro 85S, HybridPro 80R</td></tr>
+            <tr><th scope="row">Variants</th><td>2H / 3H / 4H / 5H, Right-hand, Left-hand</td></tr>
+          </tbody>
+        </table>
+        <h4 class="product-detail__specs-title">🔬 Key Technologies</h4>
+        <div class="product-detail__tech">
+          <span class="product-detail__tech-tag">Dual-Rail Sole</span>
+          <span class="product-detail__tech-tag">Face Flex Zone</span>
+          <span class="product-detail__tech-tag">Adjustable Hosel</span>
+        </div>
+        <div class="product-detail__price-section">
+          <div>
+            <span class="product-detail__price-label">Starting From</span>
+            <span class="product-detail__price-value">$279</span>
+          </div>
+          <a href="#contact" class="btn btn--gold product-detail__inquiry">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       ABOUT SECTION
+       ============================================ -->
+  <section class="about" id="about">
+    <div class="container">
+      <span class="section-label animate-on-scroll">Our Story</span>
+      <h2 class="section-title animate-on-scroll">Crafted for Those Who Demand More</h2>
+
+      <div class="about__grid">
+        <div class="about__image animate-on-scroll">
+          <span class="about__image-icon">⛳</span>
+          <div class="about__image-overlay">
+            <span class="about__image-stat">Est. 2026</span>
+            <p>Pursuing perfection on every fairway</p>
+          </div>
+        </div>
+
+        <div class="about__text animate-on-scroll">
+          <h3>Born from a Passion for Precision</h3>
+          <p>
+            Pro Golfer was founded by a team of engineers, club designers, and touring professionals who shared a singular vision: to create golf clubs that perform as flawlessly as the golfers who wield them.
+          </p>
+          <p>
+            Every Pro Golfer club begins with data. We use advanced AI modeling to optimize face geometries, proprietary forging techniques to achieve unmatched feel, and rigorous tour-level testing to validate performance under pressure. From the ProFlight X1 Driver's AI FlightPath Face to the SpinMaster Wedge's laser-milled micro-grooves, innovation is in our DNA.
+          </p>
+          <p>
+            We believe equipment should never be the limiting factor. Whether you're competing on the PGA Tour or grinding to break par at your home course, Pro Golfer equips you with the confidence to play your best.
+          </p>
+
+          <div class="about__values">
+            <div class="about__value">
+              <span class="about__value-icon">🔬</span>
+              <span>R&D Driven</span>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon">🏆</span>
+              <span>Tour Validated</span>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon">⚒️</span>
+              <span>Precision Forged</span>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon">🎯</span>
+              <span>Player Focused</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TECHNOLOGY SECTION
+       ============================================ -->
+  <section class="technology" id="technology">
+    <div class="container">
+      <span class="section-label animate-on-scroll">Innovation Lab</span>
+      <h2 class="section-title animate-on-scroll">Technologies That Set Us Apart</h2>
+      <p class="section-subtitle animate-on-scroll">
+        Every Pro Golfer product is backed by proprietary technology developed through years of research, testing, and tour feedback.
+      </p>
+
+      <div class="tech__grid">
+        <div class="tech-card animate-on-scroll delay-1">
+          <div class="tech-card__icon">🧠</div>
+          <h3 class="tech-card__title">AI FlightPath Face</h3>
+          <p class="tech-card__text">
+            Machine learning algorithms analyze thousands of impact points to create an optimized face thickness map. The result: maximum ball speed across the entire face, even on off-center hits.
+          </p>
+          <p class="tech-card__product">Featured in: ProFlight X1 Driver</p>
+        </div>
+
+        <div class="tech-card animate-on-scroll delay-2">
+          <div class="tech-card__icon">🎯</div>
+          <h3 class="tech-card__title">Laser-Milled Micro-Grooves</h3>
+          <p class="tech-card__text">
+            Precision laser-etched groove patterns create micro-channels between grooves for enhanced friction and spin control. Delivers consistent spin rates in all conditions — wet or dry.
+          </p>
+          <p class="tech-card__product">Featured in: SpinMaster Wedge Series</p>
+        </div>
+
+        <div class="tech-card animate-on-scroll delay-3">
+          <div class="tech-card__icon">🔄</div>
+          <h3 class="tech-card__title">TrueRoll Face Technology</h3>
+          <p class="tech-card__text">
+            Grooved aluminum face insert promotes immediate forward roll on contact, reducing skid and improving distance control on putts of all lengths. Consistent energy transfer for predictable speed.
+          </p>
+          <p class="tech-card__product">Featured in: TrueRoll Putter Collection</p>
+        </div>
+
+        <div class="tech-card animate-on-scroll delay-4">
+          <div class="tech-card__icon">⚡</div>
+          <h3 class="tech-card__title">Adjustable Hosel System</h3>
+          <p class="tech-card__text">
+            Fine-tune loft (±2°), lie angle, and face angle without visiting a club fitter. Tour-proven adjustability lets you dial in your launch conditions for any course or condition.
+          </p>
+          <p class="tech-card__product">Featured in: ProFlight X1, VersaLaunch Hybrid</p>
+        </div>
+
+        <div class="tech-card animate-on-scroll delay-5">
+          <div class="tech-card__icon">🔩</div>
+          <h3 class="tech-card__title">Single-Piece Forging</h3>
+          <p class="tech-card__text">
+            Each Precision Blade iron is forged from a single billet of S25C carbon steel — the softest, most responsive steel in golf. No welds. No inserts. Just pure, buttery feel at impact.
+          </p>
+          <p class="tech-card__product">Featured in: Precision Blade Iron Set</p>
+        </div>
+
+        <div class="tech-card animate-on-scroll delay-6">
+          <div class="tech-card__icon">🛤️</div>
+          <h3 class="tech-card__title">Dual-Rail Sole Design</h3>
+          <p class="tech-card__text">
+            Two precision-milled rails on the sole glide through turf and rough without digging. Maintains head speed through impact for consistent distance from any lie.
+          </p>
+          <p class="tech-card__product">Featured in: VersaLaunch Hybrid</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TESTIMONIALS SECTION
+       ============================================ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <span class="section-label animate-on-scroll">Tour Pros</span>
+      <h2 class="section-title animate-on-scroll">What the Pros Say</h2>
+      <p class="section-subtitle animate-on-scroll">
+        Trusted by professionals competing at the highest levels of the game.
+      </p>
+
+      <div class="testimonials__grid">
+        <blockquote class="testimonial-card animate-on-scroll delay-1">
+          <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="testimonial-card__text">
+            "The ProFlight X1 is the most consistent driver I've ever played. The AI FlightPath Face gives me confidence that even my misses are still in play. I gained 12 yards on average without sacrificing accuracy."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">JM</div>
+            <div>
+              <cite class="testimonial-card__name">James Mitchell</cite>
+              <p class="testimonial-card__title">PGA Tour Professional</p>
+            </div>
+          </div>
+        </blockquote>
+
+        <blockquote class="testimonial-card animate-on-scroll delay-2">
+          <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="testimonial-card__text">
+            "I've played every major iron brand on tour. Nothing comes close to the feel of the Precision Blades. The S25C forging is silky smooth, and the progressive weighting gives me the control I need on approach shots."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">SK</div>
+            <div>
+              <cite class="testimonial-card__name">Sarah Kim</cite>
+              <p class="testimonial-card__title">LPGA Tour Winner</p>
+            </div>
+          </div>
+        </blockquote>
+
+        <blockquote class="testimonial-card animate-on-scroll delay-3">
+          <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="testimonial-card__text">
+            "The SpinMaster wedges changed my short game completely. The raw finish with laser-milled grooves gives me spin numbers I didn't think were possible. Around the greens, these are unbeatable."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">CR</div>
+            <div>
+              <cite class="testimonial-card__name">Carlos Rodriguez</cite>
+              <p class="testimonial-card__title">DP World Tour Professional</p>
+            </div>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION
+       ============================================ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <span class="section-label animate-on-scroll">Get in Touch</span>
+      <h2 class="section-title animate-on-scroll">Ready to Elevate Your Game?</h2>
+      <p class="section-subtitle animate-on-scroll">
+        Contact us for sales inquiries, custom fitting appointments, or dealer partnership opportunities.
+      </p>
+
+      <div class="contact__wrapper">
+        <div class="contact__info animate-on-scroll">
+          <h3>Let's Talk Golf</h3>
+          <p>
+            Whether you're a touring professional looking for a new equipment partner, a club fitter interested in carrying Pro Golfer, or a competitive golfer ready to experience the difference — we'd love to hear from you.
+          </p>
+
+          <div class="contact__info-item">
+            <div class="contact__info-icon">📧</div>
+            <div>
+              <p class="contact__info-label">Email</p>
+              <p class="contact__info-value">info@progolfer.com</p>
+            </div>
+          </div>
+
+          <div class="contact__info-item">
+            <div class="contact__info-icon">📞</div>
+            <div>
+              <p class="contact__info-label">Phone</p>
+              <p class="contact__info-value">+1 (800) PRO-GOLF</p>
+            </div>
+          </div>
+
+          <div class="contact__info-item">
+            <div class="contact__info-icon">📍</div>
+            <div>
+              <p class="contact__info-label">Headquarters</p>
+              <p class="contact__info-value">1234 Fairway Drive<br>Scottsdale, AZ 85255, USA</p>
+            </div>
+          </div>
+
+          <div class="contact__info-item">
+            <div class="contact__info-icon">🕐</div>
+            <div>
+              <p class="contact__info-label">Business Hours</p>
+              <p class="contact__info-value">Mon – Fri: 8:00 AM – 6:00 PM MST</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact__form animate-on-scroll" id="contactForm" novalidate>
+          <div class="form__row">
+            <div class="form__group">
+              <label class="form__label" for="name">Name <span class="required" aria-hidden="true">*</span></label>
+              <input class="form__input" type="text" id="name" name="name" placeholder="Your full name" required aria-required="true">
+              <p class="form__error" id="nameError" role="alert">Please enter your name</p>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Email <span class="required" aria-hidden="true">*</span></label>
+              <input class="form__input" type="email" id="email" name="email" placeholder="you@example.com" required aria-required="true">
+              <p class="form__error" id="emailError" role="alert">Please enter a valid email</p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="form__group">
+              <label class="form__label" for="phone">Phone</label>
+              <input class="form__input" type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="inquiry">Inquiry Type <span class="required" aria-hidden="true">*</span></label>
+              <select class="form__select" id="inquiry" name="inquiry" required aria-required="true">
+                <option value="" disabled selected>Select an option</option>
+                <option value="sales">Product Sales</option>
+                <option value="fitting">Custom Fitting</option>
+                <option value="dealer">Dealer Inquiry</option>
+                <option value="tour">Tour Partnership</option>
+                <option value="media">Media / Press</option>
+                <option value="other">Other</option>
+              </select>
+              <p class="form__error" id="inquiryError" role="alert">Please select an inquiry type</p>
+            </div>
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="message">Message <span class="required" aria-hidden="true">*</span></label>
+            <textarea class="form__textarea" id="message" name="message" placeholder="Tell us how we can help..." required aria-required="true"></textarea>
+            <p class="form__error" id="messageError" role="alert">Please enter your message</p>
+          </div>
+
+          <button type="submit" class="btn btn--primary form__submit">Send Inquiry</button>
+
+          <div class="form__success" id="formSuccess">
+            <div class="form__success-icon">✅</div>
+            <h4>Message Sent Successfully!</h4>
+            <p>Thank you for your inquiry. Our team will get back to you within 24 hours.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-name">
+            <span>⛳</span> Pro Golfer
+          </div>
+          <p class="footer__brand-desc">
+            Designing and manufacturing high-performance golf clubs for professional and competitive golfers. Precision engineering meets cutting-edge technology.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Facebook">f</a>
+            <a href="#" class="footer__social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="footer__social-link" aria-label="Twitter / X">𝕏</a>
+            <a href="#" class="footer__social-link" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__column-title">Products</h4>
+          <ul>
+            <li><a href="#products">ProFlight X1 Driver</a></li>
+            <li><a href="#products">AeroStrike Fairway</a></li>
+            <li><a href="#products">Precision Blade Irons</a></li>
+            <li><a href="#products">SpinMaster Wedges</a></li>
+            <li><a href="#products">TrueRoll Putters</a></li>
+            <li><a href="#products">VersaLaunch Hybrid</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__column-title">Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#technology">Technology</a></li>
+            <li><a href="#testimonials">Tour Pros</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__column-title">Newsletter</h4>
+          <p class="footer__brand-desc">Stay updated with new launches, tour results, and exclusive offers.</p>
+          <div class="footer__newsletter">
+            <form class="footer__newsletter-form" aria-label="Newsletter signup">
+              <input class="footer__newsletter-input" type="email" placeholder="Enter your email" aria-label="Email for newsletter">
+              <button class="footer__newsletter-btn" type="submit">Join</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 Pro Golfer. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" role="button">↑</button>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
